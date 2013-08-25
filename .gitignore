@@ -1,0 +1,3 @@
+# Ignore Standard OS Files
+.DS_STORE
+Thumbs.db
