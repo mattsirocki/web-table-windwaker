@@ -18,8 +18,8 @@
  * @filesource
  */
 
-$json_old = @file_get_contents($argv[1]);
-$json_new = @file_get_contents($argv[2]);
+$json_old = file_get_contents($argv[1]);
+$json_new = file_get_contents($argv[2]);
 $data_old = json_decode($json_old, true);
 $data_new = json_decode($json_new, true);
 $save = array();

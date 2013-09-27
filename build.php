@@ -4,7 +4,7 @@
  * The purpose of this script is to generate the #windwaker table.
  */
 
-require_once '../Web Table/Source/Web/Table/Autoloader.php';
+require_once '../web-table/Source/Web/Table/Autoloader.php';
 require_once 'islands.php';
 
 $table = new \Web\Table\Table('windwaker', 'Dark', true);
