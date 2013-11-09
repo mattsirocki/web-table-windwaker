@@ -7,6 +7,9 @@
  * assumes that new fields are only ever appended and that names (i.e.
  * identifiers) remain constant.
  *
+ * Updates table `old` ($argv[1]) to match the structure of table `new` using
+ * checked values from table `old`.
+ *
  * PHP 5.3
  *
  * @package   Console\Parser

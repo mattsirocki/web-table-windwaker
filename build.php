@@ -7,7 +7,7 @@
 require_once '../web-table/Source/Web/Table/Autoloader.php';
 require_once 'islands.php';
 
-$table = new \Web\Table\Table('windwaker', 'Dark', true);
+$table = new \Web\Table\Table('windwaker', 'Light', true);
 $table->alias = 'The Legend of Zelda: The Wind Waker';
 
 // Group Names
@@ -174,7 +174,7 @@ foreach ($gallery as $ci => $c)
 
         foreach ($d as $ei => &$e)
             if (strlen($e) && in_array($e[0], $special))
-                $e = "<b>$e</b>";
+                $e = "$e";
             else
                 $e = "<span style=\"font-size:smaller;\">$e</span>";
 
